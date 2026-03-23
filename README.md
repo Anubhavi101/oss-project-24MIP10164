@@ -2,6 +2,7 @@
 
 # Student Details
 Name: Anubhavi
+
 Registration Number: 24MIP10164
 
 # Choosen Software
@@ -12,27 +13,27 @@ In this project i have worked on understanding the Open Source Software. I have 
 
 # Shell Scripts
 
-# script 1 ( System Indentity Report)
+# Script 1 ( System Indentity Report)
 This script shows basic system detailes like kernel version, current user, uptime and date
 
 Run: bash script1.sh
 
-# script 2 (FOSS package Inspector)
+# Script 2 (FOSS package Inspector)
 This script checks whether git is installed and shows git's version and details
 
 Run: bash script2.sh
 
-# script 3 (Disk and Permision Auditor)
+# Script 3 (Disk and Permision Auditor)
 This script checks the important directories and displays their permissios and disk usage
 
 Run: bash script3.sh
 
-# script 4 (Log File analyser)
+# Script 4 (Log File analyser)
 This script read log file and counts how many times keyword appears
 
 Run: bash script4.sh/var/log/syslog
 
-# script 5 (Open source manisfesto generator)
+# Script 5 (Open source manisfesto generator)
 This script asks the user few questions and generates text files based on the answers
 
 Run: bash script5.sh
