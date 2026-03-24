@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script 1: System Identity Report (Git-focused)
-# Author: Your Name | Course: Open Source Software
+# Author: Anubhavi | Course: Open Source Software
 
 # --- Variables ---
 STUDENT_NAME="Anubhavi"          # Fill in your name
