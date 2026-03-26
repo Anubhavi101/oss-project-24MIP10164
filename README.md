@@ -5,7 +5,7 @@ Name: Anubhavi
 
 Registration Number: 24MIP10164
 
-# Choosen Software
+# Chosen Software
 In this project, I have selected Git. It is a version control system which is used to track the changes in the files and it also helps multiple people work on the same project at the same time.
 
 # About the Project 
