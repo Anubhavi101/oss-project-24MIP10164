@@ -13,8 +13,8 @@ In this project i have worked on understanding the Open Source Software. I have 
 
 # Shell Scripts
 
-# Script 1 ( System Indentity Report)
-This script shows basic system detailes like kernel version, current user, uptime and date
+# Script 1 ( System Identity Report)
+This script shows basic system details like kernel version, current user, uptime and date
 
 Run: bash script1.sh
 
@@ -23,8 +23,8 @@ This script checks whether git is installed and shows git's version and details
 
 Run: bash script2.sh
 
-# Script 3 (Disk and Permision Auditor)
-This script checks the important directories and displays their permissios and disk usage
+# Script 3 (Disk and  Permission  Auditor)
+This script checks the important directories and displays their permissions and disk usage
 
 Run: bash script3.sh
 
@@ -33,7 +33,7 @@ This script read log file and counts how many times keyword appears
 
 Run: bash script4.sh/var/log/syslog
 
-# Script 5 (Open source manisfesto generator)
+# Script 5 (Open source manifesto generator)
 This script asks the user few questions and generates text files based on the answers
 
 Run: bash script5.sh
