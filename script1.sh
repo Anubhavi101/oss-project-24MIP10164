@@ -1,24 +1,21 @@
 #!/bin/bash
-# Script 1: System Identity Report (Git-focused)
-# Author: Anubhavi | Course: Open Source Software
+# Script 1: System Identity Report
 
-# --- Variables ---
-STUDENT_NAME="Anubhavi"          # Fill in your name
-SOFTWARE_CHOICE="Git"             # Chosen software
+# Variables
+STUDENT_NAME="Your Name"
+SOFTWARE_CHOICE="Git"
 
-# --- System info ---
+# System info
 KERNEL=$(uname -r)
 USER_NAME=$(whoami)
 UPTIME=$(uptime -p)
 DATE=$(date)
-
-# Linux Distribution
 DISTRO=$(grep PRETTY_NAME /etc/os-release | cut -d '"' -f2)
 
-# Git-specific info
+# Git info
 GIT_VERSION=$(git --version 2>/dev/null)
 
-# --- Display ---
+# Output
 echo "========================================"
 echo " Open Source Audit — $STUDENT_NAME"
 echo "========================================"
@@ -30,7 +27,6 @@ echo "Distro        : $DISTRO"
 echo "Date          : $DATE"
 echo "----------------------------------------"
 
-# Check if Git is installed
 if command -v git &>/dev/null; then
     echo "Git Status    : Installed"
     echo "Git Version   : $GIT_VERSION"
@@ -38,6 +34,4 @@ else
     echo "Git Status    : Not Installed"
 fi
 
-echo "----------------------------------------"
-echo "License Note  : This report uses open-source tools and reflects the principles of free and open-source software."
 echo "========================================"
